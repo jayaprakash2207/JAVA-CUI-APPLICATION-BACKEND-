@@ -1,0 +1,54 @@
+2026-02-06 16:15:28 INFO  RetirementPlanning.main.Main - Application started
+2026-02-06 16:15:42 INFO  RetirementPlanning.main.Main - Viewing customer with ID: 1
+2026-02-06 16:15:42 INFO  RetirementPlanning.service.RetirementService - Service: viewCustomer called for ID 1
+2026-02-06 16:15:42 INFO  RetirementPlanning.dao.CustomerDAO - Fetching customer with ID: 1
+2026-02-06 18:50:29 INFO  RetirementPlanning.main.Main - Application started
+2026-02-06 20:33:34 INFO  RetirementPlanning.main.Main - Application started
+2026-02-06 20:33:43 INFO  RetirementPlanning.main.Main - Fetching all customers
+2026-02-06 20:34:38 INFO  RetirementPlanning.main.Main - Adding customer: jayy
+2026-02-06 20:34:38 INFO  RetirementPlanning.dao.CustomerDAO - Inserting customer
+2026-02-06 20:34:39 INFO  RetirementPlanning.dao.CustomerDAO - Customer added with ID: 2
+2026-02-06 20:34:39 INFO  RetirementPlanning.main.Main - Customer added with ID: 2
+2026-02-06 20:34:51 INFO  RetirementPlanning.main.Main - Fetching all customers
+2026-02-06 20:36:58 INFO  RetirementPlanning.main.Main - Application started
+2026-02-06 20:37:45 INFO  RetirementPlanning.main.Main - Updating customer ID: 1
+2026-02-06 20:37:52 INFO  RetirementPlanning.main.Main - Fetching all customers
+2026-02-06 20:40:41 INFO  RetirementPlanning.main.Main - Application started
+2026-02-06 20:40:47 INFO  RetirementPlanning.main.Main - Fetching all customers
+2026-02-06 20:44:38 INFO  RetirementPlanning.main.Main - Application started
+2026-02-06 20:45:13 INFO  RetirementPlanning.main.Main - Fetching all customers
+2026-02-06 20:45:13 INFO  RetirementPlanning.service.RetirementService - Service: viewAllCustomers()
+2026-02-06 20:45:13 INFO  RetirementPlanning.facade.RetirementFacade - Facade: viewAllCustomers()
+2026-02-06 20:45:13 INFO  RetirementPlanning.dao.CustomerDAO - DAO: Fetching ALL customers
+2026-02-06 20:45:14 INFO  RetirementPlanning.dao.CustomerDAO - DAO: Total customers fetched = 2
+2026-02-06 20:45:31 INFO  RetirementPlanning.main.Main - Viewing customer with ID: 1
+2026-02-06 20:45:31 INFO  RetirementPlanning.service.RetirementService - Service: viewCustomer(1)
+2026-02-06 20:45:31 INFO  RetirementPlanning.facade.RetirementFacade - Facade: viewCustomer(1)
+2026-02-06 20:45:31 INFO  RetirementPlanning.dao.CustomerDAO - DAO: Fetching customer by ID = 1
+2026-02-06 20:45:31 INFO  RetirementPlanning.dao.CustomerDAO - DAO: Customer found for ID = 1
+2026-02-06 20:46:43 INFO  RetirementPlanning.main.Main - Adding customer: sneha
+2026-02-06 20:46:43 INFO  RetirementPlanning.service.RetirementService - Service: addCustomer()
+2026-02-06 20:46:43 INFO  RetirementPlanning.facade.RetirementFacade - Facade: registerCustomer()
+2026-02-06 20:46:43 INFO  RetirementPlanning.dao.CustomerDAO - DAO: insertCustomer started
+2026-02-06 20:46:43 INFO  RetirementPlanning.dao.CustomerDAO - DAO: Inserting into Customer table
+2026-02-06 20:46:43 INFO  RetirementPlanning.dao.CustomerDAO - DAO: Generated Customer ID = 3
+2026-02-06 20:46:43 INFO  RetirementPlanning.dao.CustomerDAO - DAO: Inserting into Customer_Financials
+2026-02-06 20:46:43 INFO  RetirementPlanning.dao.CustomerDAO - DAO: insertCustomer committed successfully
+2026-02-06 20:46:43 INFO  RetirementPlanning.dao.CustomerDAO - DAO: DB connection closed
+2026-02-06 20:46:43 INFO  RetirementPlanning.service.RetirementService - Service: addCustomer completed
+2026-02-06 20:46:43 INFO  RetirementPlanning.main.Main - Customer added with ID: 3
+2026-02-06 20:47:12 INFO  RetirementPlanning.main.Main - Application started
+2026-02-06 20:47:23 INFO  RetirementPlanning.main.Main - Fetching all customers
+2026-02-06 20:47:23 INFO  RetirementPlanning.service.RetirementService - Service: viewAllCustomers()
+2026-02-06 20:47:23 INFO  RetirementPlanning.facade.RetirementFacade - Facade: viewAllCustomers()
+2026-02-06 20:47:23 INFO  RetirementPlanning.dao.CustomerDAO - DAO: Fetching ALL customers
+2026-02-06 20:47:25 INFO  RetirementPlanning.dao.CustomerDAO - DAO: Total customers fetched = 3
+2026-02-06 20:56:23 INFO  RetirementPlanning.main.Main - Application started
+2026-02-06 20:56:48 INFO  RetirementPlanning.main.Main - UI Action: Fetch All Customers requested
+2026-02-06 20:56:48 INFO  RetirementPlanning.service.RetirementService - Service: viewAllCustomers()
+2026-02-06 20:56:48 INFO  RetirementPlanning.facade.RetirementFacade - Facade: viewAllCustomers()
+2026-02-06 20:56:48 INFO  RetirementPlanning.dao.CustomerDAO - DAO: Fetching ALL customers
+2026-02-06 20:56:50 INFO  RetirementPlanning.dao.CustomerDAO - DAO: Total customers fetched = 3
+2026-02-06 20:56:50 INFO  RetirementPlanning.dao.CustomerDAO - DAO: Customer record → CustomerVO{id=1, name='ram', age=55, email='ram@mail', phone='null', address='null', income=200000.0, expenditure=0.0, savings=400000.0}
+2026-02-06 20:56:50 INFO  RetirementPlanning.dao.CustomerDAO - DAO: Customer record → CustomerVO{id=2, name='jayy', age=22, email='jat@mail', phone='null', address='null', income=600000.0, expenditure=0.0, savings=700000.0}
+2026-02-06 20:56:50 INFO  RetirementPlanning.dao.CustomerDAO - DAO: Customer record → CustomerVO{id=3, name='sneha', age=22, email='sneha@mail', phone='null', address='null', income=100000.0, expenditure=0.0, savings=1700000.0}
